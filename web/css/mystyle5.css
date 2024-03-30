@@ -1,0 +1,190 @@
+ 
+ *{
+    font-family: 'Work Sans', sans-serif;
+    font-family: verdana;
+ }
+
+.card{
+    box-shadow: 0px 0px 13px -9px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 13px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 13px -9px rgba(0,0,0,0.75);
+}
+
+
+.navbar a:hover{
+    color:#8490ff !important;
+
+}
+.icon{
+    font-size:0.9rem;
+}
+.btn1{
+    background:linear-gradient(0deg,rgb(132 144 255) 0%, rgb(98 189 252) 100%);
+    color:whitesmoke !important;
+}
+.btn1:hover{color:whitesmoke;}
+/* hero section */
+.hero-section{
+    padding:0px !important;
+    margin: 0px !important;
+    background-color: rgb(249,249,255) ;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 590 !important;
+}
+p
+{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* popular colleges section  */
+.searchbox{
+    margin: 0.5rem;
+}
+
+.h4-title{
+    width:15rem;
+    padding:0.2rem;
+
+}
+.h4-title-login{
+    width:12rem;
+}
+.another-h4 .h4-title{
+    width:25rem !important;
+}
+.another-h4 .h4-title-login{
+    width:20rem !important;
+}
+
+.h4-title-contact{
+    width:11rem;
+}
+h4{
+   position: relative;
+}
+h4::before{
+    content: "";
+    position: absolute;
+    top:120%;
+    left:0px;
+    height:3px;
+    width:8rem;
+    background-color:#8490ff;
+}
+h4::after{
+    content: "";
+    position: absolute;
+    top:112%;
+    left:0px;
+    height:0.4rem;
+    width:0.4rem;
+    background-color:#8490ff;
+}
+.popular-colleges .card img{
+    height:11rem !important;
+    object-fit: cover;
+}
+ .card1:hover{
+    background-color: rgb(71, 78, 105);
+    color:whitesmoke;
+    transition: all 0.9s;
+}
+.popular-colleges .searchbox
+{
+    position: relative;
+}
+
+.popular-colleges .bi-search{
+    
+    position: absolute;
+    top:0.2rem;
+    right:1rem;
+    font-size:1.4rem;
+    font-weight: 900;
+    color:#8490ff;
+}
+ .star-bg{
+  color:gold;
+}
+.popular-college-detail{
+    opacity: 0.8;
+}
+ .stretched-link:hover{
+    color:whitesmoke;
+}
+
+@media (max-width:500px) {
+/*    .navbar img{
+        width:10rem;
+    }*/
+    .hero-detail{
+        padding-left:5%;
+    }
+    .hero-section .container
+    {
+        padding-top: 1rem;
+    }
+    .navbar-toggler{
+        width:2rem;
+        height:2rem;
+
+        position: relative;
+        border: none !important;
+        box-shadow: none !important;
+    }
+    .navbar-toggler-icon
+    {
+        position: absolute;
+        top:0.1rem;
+        left:0.1rem;
+        width: 80% !important;
+        height: 80% !important;
+      
+    }
+
+    
+}
+
+/* profile-section */
+
+.profile-img{
+    width:4rem;
+    height: 4rem;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.teacher-img{
+    width:4.5rem;
+    height:4.5rem;
+    object-fit: cover;
+    border-radius: 50%; 
+}
+
+/* college section */
+.college-section img{
+     width:20rem;                                                          
+}
+.rat-star{
+   color:#8490ff;
+   font-weight: 600;
+   cursor: pointer;
+}
+.rat-star1{
+    color:#8490ff;
+    font-weight: 600;
+    cursor: pointer;
+}
+.user-rate{
+    color:rgb(168, 168, 168);
+}
+.user-rate1{
+    color:rgb(168, 168, 168);
+}
+
+
+
+
+
+
